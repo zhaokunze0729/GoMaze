@@ -28,6 +28,11 @@ int main()
 	gameWindow->clear();
 	gameWindow->print();
 	while (1) {
+		if (gameWindow->isGameOver()) {
+			gameWindow->clear();
+			std::cout << "Game Over!" << std::endl;
+			break;
+		}
 		if (gameWindow->isWinner()) {
 			gameWindow->clear();
 			std::cout << "You win!" << std::endl;

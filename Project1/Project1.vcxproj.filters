@@ -36,6 +36,9 @@
     <ClCompile Include="Chest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameWindow.h">
@@ -54,6 +57,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Chest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
