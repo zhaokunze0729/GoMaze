@@ -6,7 +6,7 @@ int main()
 {
 	HWND hwnd = GetConsoleWindow();
 	GameWindow* gameWindow = new GameWindow();
-	gameWindow->killMaximize(hwnd);
+	gameWindow->killMaximize(hwnd); // 无用代码
 	std::cout << "                                               Game Will Start\n";
 	std::cout << "Press Enter to start";
 	char startGame = _getch();

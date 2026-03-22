@@ -2,6 +2,7 @@
 #include "Player.h"
 #include "Map.h"
 #include "End.h"
+#include "Chest.h"
 #include <Windows.h>
 class GameWindow
 {
@@ -17,5 +18,6 @@ public:
 
 	Player* player;
 	End* end;
+	Chest* chest;
 };
 
