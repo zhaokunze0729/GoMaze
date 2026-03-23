@@ -141,6 +141,7 @@
     <ClInclude Include="data.h" />
     <ClInclude Include="End.h" />
     <ClInclude Include="GameWindow.h" />
+    <ClInclude Include="id.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Trap.h" />

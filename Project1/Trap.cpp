@@ -5,7 +5,7 @@
 Trap::Trap() {
 	for (int i = 0; i < 10; i++) {
 		for (int j = 0; j < 10; j++) {
-			if (map->map[i][j] == 't') {
+			if (map->map[i][j] == ID_T) {
 				this->x = i;
 				this->y = j;
 				return;
@@ -25,7 +25,7 @@ int Trap::getY() {
 int Trap::isPlayerDie() {
 	for (int i = 0; i < 10; i++) {
 		for (int j = 0; j < 10; j++) {
-			if (map->map[i][j] == 'p') {
+			if (map->map[i][j] == ID_P) {
 				return 0;
 			}
 		}

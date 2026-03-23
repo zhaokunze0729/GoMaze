@@ -5,7 +5,7 @@
 End::End() {
 	for (int i = 0; i < 10; i++) {
 		for (int j = 0; j < 10; j++) {
-			if (map->map[i][j] == 'e') {
+			if (map->map[i][j] == ID_E) {
 				this->x = i;
 				this->y = j;
 				return;
@@ -16,7 +16,7 @@ End::End() {
 int End::isDie() {
 	for (int i = 0; i < 10; i++) {
 		for (int j = 0; j < 10; j++) {
-			if (map->map[i][j] == 'e') {
+			if (map->map[i][j] == ID_E) {
 				return 0;
 			}
 		}

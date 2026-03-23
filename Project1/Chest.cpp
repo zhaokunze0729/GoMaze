@@ -6,7 +6,7 @@
 Chest::Chest() {
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
-            if (map->map[i][j] == 'c') {
+            if (map->map[i][j] == ID_C) {
                 this->x = i;  // 行
                 this->y = j;  // 列
                 return;
@@ -24,13 +24,13 @@ int Chest::getY() {
 }
 
 void Chest::setX(int x) {
-    map->map[this->x][this->y] = 'n';
+    map->map[this->x][this->y] = ID_N;
     this->x = x;
-    map->map[this->x][this->y] = 'c';
+    map->map[this->x][this->y] = ID_C;
 }
 
 void Chest::setY(int y) {
-    map->map[this->x][this->y] = 'n';
+    map->map[this->x][this->y] = ID_N;
     this->y = y;
-    map->map[this->x][this->y] = 'c';
+    map->map[this->x][this->y] = ID_C;
 }
